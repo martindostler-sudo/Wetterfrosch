@@ -1,226 +1,73 @@
-# 🐸 Wetterfrosch
-
-**Wetterfrosch ist eine kompakte Wetter- und Outdoor-Web-App für alle, die nicht nur wissen wollen, ob es regnet – sondern ob eine Tour heute wirklich eine gute Idee ist.**
-
-Wetterfrosch kombiniert mehrere Wettermodelle, Höheninformationen, Outdoor-Bewertungen, GPX-Routen und amtliche Lawineninformationen in einer einzigen Web-App.
-
-Denn zwischen
-
-> „15 °C, teilweise bewölkt“
-
-und
-
-> „Um 14 Uhr auf 2.400 m starke Böen, Gewitterrisiko und steigende Niederschlagswahrscheinlichkeit“
-
-liegt beim Wandern, Radfahren oder Bergsteigen ein kleiner, aber entscheidender Unterschied. 😉
-
----
-
-## 🌦️ Wetter im Detail
-
-Wetterfrosch vergleicht mehrere Wettermodelle und macht sichtbar, **wie gut die Modelle übereinstimmen und wo Unsicherheiten bestehen**.
-
-Enthalten sind unter anderem:
-
-* **3-Tage-Wetter**
-* **24-Stunden-Detailprognose**
-* Temperatur und gefühlte Temperatur
-* Niederschlag und Regenrisiko
-* Wind, Windrichtung und Böen
-* Gewitterpotenzial
-* Sichtweite
-* Sonnenaufgang, Sonnenuntergang und Tageslänge
-* Modellvergleich und Modellübereinstimmung
-* Regenradar und Wetterkarten
-* Windy-Integration
-
-Dabei wird die **Höhenlage des Zielpunkts** berücksichtigt – denn 2.000 Meter sind nun einmal nicht 500 Meter, auch wenn sie dieselben GPS-Koordinaten haben.
-
----
-
-## 📍 Nicht nur Städte suchen
-
-Ein Wetterziel muss nicht München oder Innsbruck heißen.
-
-Wetterfrosch kann auch nach **Bergen, Gipfeln, Hütten, Almen, Pässen, Bergstationen und anderen relevanten Bergzielen** suchen.
-
-Zum Beispiel:
-
-🏙️ München
-🏔️ Zugspitze
-🏔️ Watzmann
-🏡 Franz-Senn-Hütte
-🏡 Tegernseer Hütte
-🏔️ Timmelsjoch
-
-Unterstützt werden Ziele in **Deutschland, Österreich, der Schweiz sowie im Alpenraum Norditaliens**.
-
-Wenn verfügbar, übernimmt Wetterfrosch dabei auch die **Höhe des ausgewählten Ziels** und verwendet sie für die Wetterberechnung.
-
----
-
-## 🥾🚴🏔️ Outdoor-Cockpit
-
-Wetter ist nicht für jede Aktivität gleich.
-
-Deshalb bewertet Wetterfrosch die Bedingungen abhängig davon, ob du unterwegs bist zum:
-
-* 🥾 Wandern
-* 🚴 Radfahren
-* 🏔️ Bergwandern
-
-Dabei werden unter anderem Niederschlag, Wind, Böen, Temperatur und Gewitterpotenzial berücksichtigt.
-
-Das Ziel ist nicht, dem Nutzer vorzuschreiben, was er tun soll, sondern **die relevanten Wetterfaktoren verständlich zusammenzuführen**.
-
----
-
-## 🗺️ GPX / Route
-
-Eine Tour kann direkt als **GPX-Datei** geladen und analysiert werden.
-
-Wetterfrosch betrachtet dabei nicht nur einen einzelnen Punkt, sondern die Route:
-
-* Streckenlänge
-* Aufstieg und Abstieg
-* Höhenprofil
-* Wetter entlang der Strecke
-* Temperatur
-* Niederschlag
-* Wind und Windrichtung
-* Böen
-* Gewitterpotenzial
-* bergrelevante Wetterdaten
-
-So wird aus einer Wettervorhersage eine **Wetteranalyse für die tatsächliche Tour**.
-
----
-
-# 🗓️ Mehrtagestouren
-
-Eine besondere Funktion von Wetterfrosch ist die Planung von **Mehrtagestouren**.
-
-Neben der normalen **Tagestour** kann eine GPX-Route als **Mehrtagestour** geplant werden.
-
-Dazu werden lediglich benötigt:
-
-**📅 Startdatum + Anzahl der Tage**
-
-Wetterfrosch teilt die vorhandene Route automatisch in Tagesetappen auf.
-
-Danach können die Etappen bearbeitet und angepasst werden.
-
-Damit lässt sich beispielsweise eine Alpenüberquerung oder mehrtägige Radtour planen, ohne für jeden Tag mühsam einen eigenen Wetterort eingeben zu müssen.
-
----
-
-## 📋 Wetter pro Etappe
-
-Jede Etappe erhält eine eigene Zusammenfassung:
-
-**TAG 2 · SO 13.09.**
-**Tegernsee → Achensee**
-
-**21,4 km · +1.180 m · 8:10 h**
-
-🌦️ wechselhaft
-🌡️ 6–15 °C
-💨 Böen bis 48 km/h
-🌧️ 65 % Regenrisiko
-⚡ Gewitter möglich
-🏔️ Lawinenlage: 2 – Mäßig
-
-⭐ **TOURTAUGLICHKEIT: 72 / 100**
-
-Für Radtouren wird entsprechend die **Fahrttauglichkeit** bewertet.
-
-Zusätzlich kann Wetterfrosch erkennen, **welche Etappe der Tour aktuell die schwierigsten Bedingungen aufweist**.
-
-Damit lautet die entscheidende Frage nicht mehr nur:
-
-> „Wie wird das Wetter nächste Woche?“
-
-sondern:
-
-> **„Welcher Tag meiner Tour könnte zum Problem werden?“**
-
----
-
-# 🏔️ Bergwetter & Lawinenlage
-
-Im Bergwetter werden zusätzliche alpine Faktoren betrachtet, beispielsweise:
-
-* Höhenabhängigkeit
-* Nullgradgrenze
-* Schneefallgrenze
-* Wind in unterschiedlichen Höhen
-* Gewitterpotenzial
-
-Besonders wichtig ist die **amtliche Lawinenlage**.
-
-Wetterfrosch berechnet **keine eigene Lawinengefahrenstufe**.
-
-Stattdessen wird anhand der geografischen Position die passende **offizielle Lawinenwarnregion** gesucht.
-
-Unterstützt werden:
-
-🇩🇪 **Deutschland**
-🇦🇹 **Österreich**
-🇨🇭 **Schweiz**
-
-und die entsprechenden offiziellen Lawinenwarndienste bzw. Datenquellen.
-
-Die Zuordnung erfolgt ausschließlich anhand der verfügbaren **offiziellen Regionsgeometrien**.
-
-Gibt es keine eindeutige Zuordnung, zeigt Wetterfrosch **bewusst keine Gefahrenstufe an**, anstatt eine möglicherweise falsche Warnung zu erzeugen.
-
----
-
-# 👶 Anfänger oder 🤓 Experte?
-
-Nicht jeder braucht fünf Diagramme, sieben Wettermodelle und ein Höhenprofil, bevor er morgens zum Bäcker fährt.
-
-Deshalb bietet Wetterfrosch zwei Modi:
-
-### Anfänger
-
-Die wichtigsten Wetterinformationen ohne unnötige Komplexität.
-
-### Experte
-
-Zusätzliche Funktionen wie:
-
-GPX / Route · Outdoor · Bergwetter · Modellvergleich · Mehrtagestouren
-
-So kann die App einfach anfangen und trotzdem deutlich tiefer gehen, wenn es interessant wird.
-
----
-
-# 🧠 Die Idee hinter Wetterfrosch
-
-Wetter ist selten einfach.
-
-Ein Wettermodell sagt Regen, ein anderes nicht.
-Im Tal sind es 15 °C, auf dem Gipfel 4 °C.
-Der Wind ist morgens harmlos und nachmittags kräftig.
-Und die schönste Tour der Woche ist plötzlich genau der Tag mit dem schlechtesten Wetter.
-
-Wetterfrosch versucht deshalb nicht, aus komplexen Daten eine scheinbar perfekte Wahrheit zu machen.
-
-Stattdessen:
-
-**mehrere Modelle vergleichen → Höhenlage berücksichtigen → relevante Faktoren zusammenführen → Unsicherheit sichtbar machen → verständliche Entscheidungshilfe geben.**
-
-Oder noch einfacher:
-
-> ### 🐸 Wetterfrosch weiß nicht, ob du losgehen solltest.
->
-> ### Aber er kann dir ziemlich gut zeigen, worauf du dabei achten solltest.
-
----
-
-## ⚠️ Hinweis
-
-Wetterfrosch ist eine technische Wetter- und Outdoor-Hilfe und ersetzt keine professionelle Tourenplanung, lokale Beobachtung oder die eigenverantwortliche Beurteilung der Bedingungen vor Ort.
-
-Insbesondere bei alpinen Touren und Lawinengefahr müssen immer die aktuellen Bedingungen, offiziellen Warnungen und die eigene Erfahrung berücksichtigt werden.
+🐸 Wetterfrosch V8
+Willkommen beim Wetterfrosch! Verabschiede dich von 08/15-Wetter-Apps. Der Wetterfrosch
+V8 ist eine mächtige, datenschutzfreundliche Single-HTML-App, die speziell für Outdoor-Fans,
+Bergsteiger und Tourenplaner entwickelt wurde. Er vereint 5 globale Wettermodelle und
+berechnet das Wetter passgenau für deine aktuelle Höhe.
+🎯 Die Kernphilosophie
+Warum noch eine Wetter-Anwendung? Weil der Wetterfrosch Dinge kann, an denen klassische Apps
+scheitern:
+Ensemble-Vorhersage: Statt sich auf ein Modell zu verlassen, analysiert die App zeitgleich 5
+globale Top-Modelle (ECMWF, GFS, ICON, UKMO, GEM). Gibt es Abweichungen? Der Frosch
+sagt es dir!
+Höhenpräzision: Berg oder Tal? Die App kalibriert die Daten punktgenau auf die Höhenmeter
+deines Ziels.
+Privatsphäre & Autarkie: Alles läuft in einer einzigen HTML-Datei lokal in deinem Browser. Deine
+Daten gehören dir.
+🎭 Zwei Modi: Für jeden das Richtige
+Um dich nicht mit Daten zu erschlagen, bietet der Wetterfrosch zwei umschaltbare Ansichten (oben
+rechts zu finden):
+🟢 Anfänger-Modus 🏔️ Experten-Modus
+Perfekt für den schnellen Alltag. Zeigt dir alles, was
+du für die nächsten Tage wissen musst, ohne
+komplizierte Fachbegriffe.
+Für Tourengeher und Alpinisten. Schaltet erweiterte
+Funktionen wie die mehrlagige Tourenplanung,
+Lawineninfos und Gewitterrisiko (CAPE) frei.
+Das pfiffige Schweizer Taschenmesser für dein Outdoor-Wetter
+•
+•
+•
+🗺️ Navigation & Tabs: Deine Werkzeuge
+1. Die intelligente Suche
+Tippe einfach oben in das Suchfeld. Der Wetterfrosch findet nicht nur Städte, sondern auch
+Berggipfel, Almen, Hütten und Pässe in der gesamten DACH-Region und Norditalien. Das
+kleine blaue Schild neben dem Treffer zeigt dir sofort die ermittelte Höhe an. Alternativ klickst
+du auf das GPS-Symbol, um deinen aktuellen Standort zu nutzen.
+2. 3D Wetter (Trend)
+Dein Blick in die Zukunft. Hier siehst du die Wetterentwicklung der kommenden Tage im
+Ensemble-Mittelwert. Die Detail-Tabelle verrät dir Sonnenstunden, Wind und vor allem den
+"Konsens" – also wie einig sich die 5 Modelle bei Temperatur und Regen sind.
+3. 24h Wetter
+Die Lupe für den aktuellen oder morgigen Tag. Mit detaillierten 2-Stunden-Takten, gefühlter
+Temperatur und dem CAPE-Wert (Gewitterpotenzial). Besonders praktisch: Die
+Modellübereinstimmungs-Anzeige warnt dich, wenn das Wetter unsicher ist.
+4. Regenradar (Powered by Windy)
+Eine interaktive Live-Wetterkarte. Du kannst zwischen dem echten Beobachtungsradar (was ist
+bisher passiert?) und der Niederschlagsprognose für die nächsten 24 Stunden umschalten.
+Auch Wind-, Temperatur- und Wolkenkarten stehen parat.
+🧗 Die Experten-Werkzeuge Nur im Experten-Modus
+Wenn du "Experte" aktivierst, wird der Wetterfrosch zum vollumfänglichen Expeditions-Planer:
+Tab: Tourplanung
+Plane mehrtägige Wanderungen oder Radtouren. Das Geniale: Wählst du eine Mehrtagestour,
+wird das Ziel von Tag 1 automatisch zum Startpunkt von Tag 2. Die App zieht sich im
+Hintergrund ein detailliertes Höhenprofil für deine Route.
+Tab: Tourbewertung
+Hier rechnet die App ab: Wie ist der Outdoor-Score deiner Route? Gibt es Wetterwarnungen für
+deine geplanten Etappen? Bei alpinen Zielen klinkt sich der Frosch sogar in amtliche
+Lawinenlageberichte ein und warnt vor heiklen Passagen.
+💾 Speichern & Mitnehmen
+Der Wetterfrosch ist zwar nur eine HTML-Datei, vergisst aber nichts, wenn du es nicht willst. Oben
+rechts unter dem Lesezeichen-Symbol findest du das Speichermenü:
+Favoriten: Speichere deine liebsten Orte und Berge mit einem Klick ab.
+Session merken: Speichert den aktuellen Ort, deinen Modus und sogar eine laufende
+Tourenplanung direkt im Browser (Local Storage).
+Als Datei sichern: Du wechselst das Gerät? Lade deinen Stand als kleine .json Datei herunter
+und importiere sie auf dem Handy oder Tablet einfach wieder!
+Pfiffiger Tipp: Nutze die App am besten am PC zur großen Tourenplanung, exportiere die
+Sicherungsdatei, lade sie dir aufs Smartphone und öffne die HTML-Datei dort im Browser (z.B.
+Chrome oder Safari). So hast du offline die perfekte Vorbereitung dabei!
+Erstellt für die Wetterfrosch V8 Single-HTML-App.
+Kartendaten: © OpenStreetMap-Mitwirkende · Geocoding: Nominatim / Photon · Radar: Windy.com · Modelle: Open-Meteo
+•
+•
+•
